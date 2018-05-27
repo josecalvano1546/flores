@@ -1,0 +1,83 @@
+/* reseteo los css */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/* inicio de valores */
+body{
+  font-size: 62.5%;
+}
+h1{
+  font: normal 2.4em Verdana, geneva, sans-serif;
+   background:linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+   padding: 20px;
+   border: black;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   width: 40%;
+   margin:20px auto;
+   color: rgb(255, 255, 255);
+   text-shadow: 3px 3px 5px rgb(0, 0, 0);
+   box-shadow: 2px 2px 10px rgb(0, 0, 0);
+   transition: width 2s, height 2s, padding-left 2s;
+   padding-left: 60px;
+}
+h1:hover {
+  width: 45%;
+ height: 30%;
+ padding-left: 130px ;
+}
+h2{
+  font: bold 1.7em Verdana, sans-serif;
+  padding: 5px 0 5px 0px;
+  color: rgb(0, 0, 0);
+}
+section{
+  width: 90%;
+  border-top: 2px dashed rgb(0, 0, 0);
+  margin: 20px auto;
+}
+figure img{
+  padding: 2px;
+  box-shadow: 4px 4px 10px rgb(11, 11, 11);
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out 0.3s;
+
+}
+figure img:hover{
+transform: scale(1.1);
+
+}
+
+figure{
+float:left;
+margin-left: 100px;
+
+}
+figcaption {
+  font-family: arial, helvetica;
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 5px;
+}
+footer{
+  clear: both;
+  padding-top: 10px;
+}
+footer p{
+  font: 1.6em georgia;
+  color:rgb(65, 65, 65) ;
+  margin: 10px 8px;
+}
+body{
+   background: rgb(217, 165, 165) url("imagenes/fondo.png") top  / 1500px;
+}
